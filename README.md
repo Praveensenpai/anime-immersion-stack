@@ -66,8 +66,8 @@ All tools by [@Praveensenpai](https://github.com/Praveensenpai). Most are Rust, 
 
 | App | What it does | Tags | Repo |
 |:--|:--|:--|:--:|
-| **nagare** 🌊 | RSS scheduler: new episodes → Seedr → fast download → rename → Jellyfin → Telegram notify → cloud purge. | `rust` `tui` `automation` | [link](https://github.com/Praveensenpai/nagare) |
-| **seedr-dl** ⚡ | Seedr.cc automation engine + multi-threaded chunk downloader + Gemini AI Jellyfin renaming. | `rust` `cli` `library` | [link](https://github.com/Praveensenpai/seedr-dl) |
+| **nagare** 🌊 | RSS scheduler: new episodes → Seedr → fast parallel download → rename → save to **any folder you configure** → Telegram notify → auto-purge cloud. Headless CLI + TUI. | `rust` `tui` `automation` | [link](https://github.com/Praveensenpai/nagare) |
+| **seedr-dl** ⚡ | Seedr.cc automation engine + multi-threaded chunk downloader + Gemini AI-powered file renaming. | `rust` `cli` `library` | [link](https://github.com/Praveensenpai/seedr-dl) |
 | **seedr-relay** ⚡ | FIFO magnet queue daemon. Stages to Seedr, notifies via Tayori, downloads, sanitizes names, writes `note.txt`. | `rust` `cli` `daemon` | [link](https://github.com/Praveensenpai/seedr-relay) |
 
 <br>
@@ -128,7 +128,7 @@ All tools by [@Praveensenpai](https://github.com/Praveensenpai). Most are Rust, 
 
 ```text
 anirel                    → pick a title
-nagare / seedr-*          → download + sort into Jellyfin
+nagare / seedr-*          → download + save to your chosen folder
 subsink                   → fetch & sync Japanese subs
 jpsan / dubstrip / kikoe   → clean video + audio tracks
 otopod                    → condense dialogue audio
